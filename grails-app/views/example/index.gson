@@ -1,0 +1,6 @@
+inherits template:"/example/index1"
+
+json {
+    attra "view index attra"
+    attrb "view index attrb"
+}
