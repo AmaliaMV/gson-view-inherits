@@ -1,6 +1,13 @@
 ---
 grails:
     profile: web
+    views:
+          json:
+              mimeTypes:
+                - application/json
+                - application/hal+json
+              compileStatic: true
+              baseTemplateClass: example.ExampleJsonView
     codegen:
         defaultPackage: gson.view.inherits
     spring:
