@@ -14,6 +14,6 @@ class ExampleJsonViewSpec extends Specification implements JsonViewTest {
         JsonRenderResult result = render(view: "example/index.gson")
 
         then: "The json is correct"
-        result.json["message"] == "Message"
+        result.json["message"] == "Message hello"
     }
 }
